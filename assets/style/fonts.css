@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'FlappyBirdLetter';
+  src: url('../fonts/FlappybirdyRegular-KaBW.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FlappyBirdNumber';
+  src: url('../fonts/flappy-bird-font.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'FlappyBird';
+  src: url('../fonts/Flappy-Bird.ttf') format('truetype');
+}

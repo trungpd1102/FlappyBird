@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/png" sizes="96x96" href="./assets/img/bird.png" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FlappyBird by Joe</title>
+
+		<link rel="stylesheet" href="./assets/style/fonts.css" />
+		<link rel="stylesheet" href="./assets/style/flappybird.css" />
+
+		<script src="flappybird.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<canvas id="screen"> </canvas>
+
+			<div class="score-wrapper" id="score-wrapper">
+				<span>Score</span>
+				<span class="score" id="score">0</span>
+			</div>
+
+			<div class="start-page" id="start-page">
+				<div>FlappyBird cloned by Joe</div>
+				<button class="button" onclick="play()">Play</button>
+        <div class="start-page__hit-button">Hit space button to jump</div>
+				<div class="start-page__record-wrapper">Your record: <span id="record" class="record"></span></div>
+			</div>
+
+			<div class="game-over" id="game-over">
+				<div class="game-over__board">
+					<div>Game over</div>
+					<div class="board-result">
+						<div>Your record: <span id="result-record"  class="record"></span></div>
+						<div>Your score: <span id="result-score" class="record"></span></div>
+					</div>
+				</div>
+
+        <div class="game-over__button-group">
+          <button class="button" onclick="backToHome()">Home</button>
+        </div>
+			</div>
+		</div>
+	</body>
+</html>
